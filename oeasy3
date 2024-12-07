@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>成语生成视频 - 画龙点睛 (huà lóng diǎn jīng)</title>
+<style>
+body { font-family: Arial, sans-serif; }
+.container { max-width: 800px; margin: auto; padding: 20px; }
+h1 { color: #d73e3e; text-align: center; }
+ol { list-style-type: decimal-leading-zero; padding-left: 2em; }
+li { margin-bottom: 1em; }
+video { display: block; margin: 20px auto; max-width: 100%; height: auto; }
+p.explanation { color: #666; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>画龙点睛 (huà lóng diǎn jīng)</h1>
+  
+  <p>成语解释：<strong>比喻作文或说话时，在关键地方加上精辟的语句，使内容更加生动有力。</strong></p>
+  
+  <h2>关键帧描述</h2>
+  <ol>
+    <li>第01章：艺术家开始绘制一条未完成的龙，背景是空白的画卷。</li>
+    <li>第02章：艺术家仔细观察龙的身体，思考如何为其注入灵魂。</li>
+    <li>第03章：观众聚集在周围，好奇地等待艺术家的最后一笔。</li>
+    <li>第04章：艺术家拿起毛笔，迅速而准确地为龙的眼睛点上了最后一笔。</li>
+    <li>第05章：奇迹发生，龙仿佛活了过来，从画卷中飞升而出。</li>
+    <li>第06章：观众们惊讶不已，纷纷鼓掌赞叹艺术家的杰作。</li>
+  </ol>
+  
+  <!-- 替换下方的 video 标签中的 src 属性值为实际视频的路径 -->
+  <video controls>
+    <source src="path/to/generated/video.mp4" type="video/mp4">
+    您的浏览器不支持 video 标签。
+  </video>
+  
+  <p class="explanation">我们选择了适合该故事的古典音乐作为背景音，并录制了解说来解释每个章节的意义。通过AI算法分析成语含义，根据语义生成相应的图像，再由专业人员进行后期编辑，最终合成了这段富有表现力的视频。</p>
+</div>
+
+</body>
+</html>
