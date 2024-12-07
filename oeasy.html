@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>探索未来城市生活</title>
+<style>
+/* 全局样式 */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9; /* 清新的背景色 */
+  color: #333;
+}
+
+/* 头部样式 */
+header {
+  background-color: #6200ea; /* 鲜艳的紫色 */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+}
+
+/* 主内容区样式 */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+}
+
+section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.1);
+  width: calc(100% - 2rem);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  transition: transform .3s ease-in-out;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+h2, h3, h4, h5, h6 {
+  color: #ff4081; /* 突出标题颜色 */
+}
+
+mark {
+  background-color: #ffc107; /* 明亮的黄色 */
+}
+
+ruby rt {
+  color: #ff4081;
+  font-size: .8em;
+}
+
+sup, sub {
+  font-size: .8em;
+}
+
+abbr {
+  cursor: help;
+  border-bottom: 1px dotted #ff4081;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li::before {
+  content: "• ";
+  color: #ff4081;
+  margin-right: 0.5rem;
+}
+
+dl dt {
+  font-weight: bold;
+  color: #6200ea;
+}
+
+dl dd {
+  margin-bottom: 1rem;
+}
+
+/* 响应式设计 */
+@media (min-width: 768px) {
+  section {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    width: calc(33.333% - 2rem);
+  }
+}
+
+/* 页脚样式 */
+footer {
+  background-color: #6200ea;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>欢迎来到未来城市生活</h1>
+  <p>在这里，我们将带您领略<em>未来</em>城市的魅力。</p>
+</header>
+
+<main>
+  <section>
+    <h2>交通出行</h2>
+    <p>未来的交通工具将更加环保、高效。<strong>飞行汽车</strong>和<mark>磁悬浮列车</mark>将成为主流。</p>
+  </section>
+
+  <section>
+    <h3>居住环境</h3>
+    <ul>
+      <li>智能家居系统控制一切</li>
+      <li>垂直花园美化生活环境</li>
+      <li>可再生能源完全自给自足</li>
+    </ul>
+  </section>
+
+  <section>
+    <h4>工作模式</h4>
+    <ol>
+      <li>远程办公成为常态</li>
+      <li>人工智能助理协助日常工作</li>
+    </ol>
+  </section>
+
+  <section>
+    <h5>休闲娱乐</h5>
+    <dl>
+      <dt>虚拟现实游戏</dt>
+      <dd>让玩家身临其境</dd>
+      <dt>增强现实体验</dt>
+      <dd>把数字世界融入现实生活</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h6>教育学习</h6>
+    <p>在线课程与实体课堂相结合，<ruby>学无止境<rt>xué wú zhǐ jìng</rt></ruby>。</p>
+    <p>化学公式：<sup>H</sup><sub>2</sub>O 是水的分子式。</p>
+    <p>缩略词：<abbr title="HyperText Markup Language">HTML</abbr>是网页的基础语言。</p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 探索未来城市生活. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
