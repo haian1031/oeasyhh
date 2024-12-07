@@ -54,9 +54,20 @@ section:hover {
   transform: translateY(-5px);
 }
 
-h2, h3, h4, h5, h6 {
-  color: #ff4081; /* 突出标题颜色 */
+/* 统一标题字体并定义不同级别标题的字体大小 */
+section h2, section h3, section h4, section h5, section h6 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #ff4081;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
+
+section h2 { font-size: 1.8rem; }
+section h3 { font-size: 1.6rem; }
+section h4 { font-size: 1.4rem; }
+section h5 { font-size: 1.2rem; }
+section h6 { font-size: 1rem; }
 
 mark {
   background-color: #ffc107; /* 明亮的黄色 */
