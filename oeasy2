@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>成语生成画面 - 画龙点睛 (huà lóng diǎn jīng)</title>
+<style>
+body { font-family: Arial, sans-serif; }
+.container { max-width: 800px; margin: auto; padding: 20px; }
+h1 { color: #d73e3e; text-align: center; }
+ul { list-style-type: none; padding: 0; }
+li::before { content: "• "; color: #d73e3e; }
+img { display: block; margin: 20px auto; max-width: 100%; height: auto; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>画龙点睛 (huà lóng diǎn jīng)</h1>
+  
+  <p>成语解释：比喻作文或说话时，在关键地方加上精辟的语句，使内容更加生动有力。</p>
+  
+  <p>生成的画面包含以下元素：</p>
+  <ul>
+    <li>一条栩栩如生的龙</li>
+    <li>艺术家正在为龙的眼睛添加最后的一笔</li>
+    <li>观众惊讶的表情</li>
+  </ul>
+  
+  <!-- 替换下方的 img 标签中的 src 属性值为实际图片的路径 -->
+  <img src="path/to/generated/image.png" alt="成语'画龙点睛'的画面">
+  
+  <p>通过AI算法分析成语含义，然后根据语义生成相应的图像。这一过程包括了对成语故事的理解、场景设定以及视觉元素的选择和组合。</p>
+</div>
+
+</body>
+</html>
